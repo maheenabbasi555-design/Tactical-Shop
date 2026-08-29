@@ -1,0 +1,204 @@
+
+/* Whole Page */
+
+
+body {
+
+    background-image: url(https://giffiles.alphacoders.com/220/220213.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+
+    color:olive;
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+}
+
+
+/* Navigation */
+
+nav {
+
+    background-color: olive;
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+
+nav a {
+
+    color: #e8dcc5;
+
+    text-decoration: none;
+
+    margin: 20px;
+
+}
+
+
+/* Main Heading */
+
+h1 {
+
+    text-align: center;
+
+    margin-top: 50px;
+
+}
+
+
+.intro {
+
+    text-align: center;
+
+}
+
+
+/* Contact Boxes */
+
+.contact-box {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    margin: 50px auto;
+
+}
+
+
+.box {
+
+    background-color: #222222;
+
+    width: 250px;
+
+    padding: 25px;
+
+    text-align: center;
+
+    border: 1px solid #e8dcc5;
+
+}
+
+
+.box h2 {
+
+    margin-top: 0;
+
+}
+
+
+/* Buttons */
+
+button {
+
+    background-color: #e8dcc5;
+
+    color: #151515;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background-color: #c8b99c;
+
+}
+
+
+/* Message Section */
+
+.message {
+
+    width: 500px;
+
+    max-width: 80%;
+
+    margin: 60px auto;
+
+}
+
+
+.message h2 {
+
+    text-align: center;
+
+}
+
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+label {
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+
+}
+
+
+input,
+textarea {
+
+    padding: 12px;
+
+    background-color: #222222;
+
+    color: white;
+
+    border: 1px solid #555555;
+
+}
+
+
+textarea {
+
+    height: 120px;
+
+}
+
+
+form button {
+
+    margin-top: 20px;
+
+}
+
+
+/* Footer */
+
+footer {
+
+    text-align: center;
+
+    background-color: #0b0b0b;
+
+    padding: 20px;
+
+    margin-top: 50px;
+
+}

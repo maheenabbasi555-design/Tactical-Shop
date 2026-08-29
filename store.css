@@ -1,0 +1,71 @@
+
+.ABOUT{
+
+   /* background-image: url(https://thumbs.dreamstime.com/b/military-equipment-special-agent-gear-concept-flat-lay-background-copy-space-military-equipment-special-agent-gear-169701013.jpg);*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #191C00;
+}
+.blue{
+    background-color: olivedrab;
+    color: #F7FFCC;
+}
+.card-body{
+    color: olive;
+    text-align: center;
+    
+}
+h2{
+    color: #B8CC52;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    background-color:olivedrab;
+    padding: 20px;
+    margin: 0;
+    /*flex-direction: column;*/
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  /*background-color: #abbaba;*/
+  color: green;
+  /*display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0*/
+}
+
+.card{
+    background-color:#F7FFCC;
+}
+
+/*#CCar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+
+    animation: move 10s linear infinite;
+}
+
+@keyframes move {
+    from {
+        left: -150px;
+    }
+
+    to {
+        left: 100%;
+    }
+}*/
+
+#CCar{
+    width: 100%;
+    height: 500px;
+}

@@ -1,0 +1,98 @@
+body{
+    
+    background-image: url(https://giffiles.alphacoders.com/220/220213.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#red{
+    color:#F7FFCC;
+    background-color:olivedrab;
+    font-size: xx-large;
+    font: oblique;
+
+}
+.middle-gif{
+    width: 100px;
+    height: auto;
+
+}
+
+
+
+.container{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.one, .two, .three{
+    flex: 1;
+    padding: 50px;
+    background-color: olivedrab;
+    font-style: italic;
+    border: 20px;
+    border-style:ridge;
+    border-color: olive;
+    color: #F7FFCC;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    background-color:olivedrab;
+    padding: 20px;
+    margin: 0;
+    /*flex-direction: column;*/
+}
+
+a {
+    color: #F7FFCC;
+    text-decoration: none;
+}
+
+.griding{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.four, .five, .six, .seven{
+    background-color: lightcoral;
+    color: #F7FFCC;
+}
+
+.assassin {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+
+    animation: move 10s linear infinite;
+}
+
+@keyframes move {
+    from {
+        left: -150px;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  /*background-color: #abbaba;*/
+  color: green;
+  /*display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0*/
+}
